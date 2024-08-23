@@ -22,7 +22,7 @@ cleanR offers the following main functions:
 - remove_outliers(): Remove outliers from numeric columns
 - clean_data(): A wrapper function that applies multiple cleaning steps
 
-Usage
+# Usage
 Here's a basic example of how to use cleanR:
 
 
