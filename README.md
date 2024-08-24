@@ -126,6 +126,6 @@ Inspired by common data cleaning challenges in R
 
 # To do
 - Missing  values handling ie imputation  etc
-- Convert between long and wide datasets 
-- Columns transformation ie logarithmic,  square root etc
+- Converting between long and wide datasets 
+- Column transformation ie logarithmic,  square root etc
 
