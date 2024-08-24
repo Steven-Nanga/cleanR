@@ -125,7 +125,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Inspired by common data cleaning challenges in R
 
 # To do
-- Remove missing  values 
+- Missing  values handling ie imputation  etc
 - Convert between long and wide datasets 
-
+- Columns transformation ie logarithmic,  square root etc
 
