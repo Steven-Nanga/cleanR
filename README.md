@@ -72,11 +72,12 @@ standardize_categories(data, cols)
 ## Convert Types
 
 ```{r}
-standardize_categories(data, cols)
+convert_types(data, type_list, date_format = NULL)
 ```
 
 - `data`: A data frame
 - `type_list`: A named list specifying column names and their desired types
+- `date_format`: Optional date format string (e.g. "%Y-%m-%d")
 
 ## Remove Outliers
 
