@@ -1,13 +1,14 @@
 Package: cleanR
 Title: Data Cleaning Tools for R
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person("Steven", "Nanga", email = "stephennanga97@gmail.com", role = c("aut", "cre"))
 Description: A collection of tools for data cleaning in R. This package provides 
-    functions for removing duplicates, standardizing categorical variables, 
-    converting data types, and removing outliers. It aims to streamline the 
-    data cleaning process by offering a unified interface for common data 
-    preparation tasks.
+    functions for removing duplicates, handling missing values, standardizing 
+    categorical variables, converting data types, removing outliers, reshaping 
+    datasets between long and wide formats, and applying column transformations. 
+    It aims to streamline the data cleaning process by offering a unified 
+    interface for common data preparation tasks.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -15,6 +16,7 @@ RoxygenNote: 7.2.3
 Imports: 
     dplyr,
     stringr,
+    tidyr,
     magrittr
 Suggests: 
     testthat (>= 3.0.0)
